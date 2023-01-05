@@ -1,0 +1,26 @@
+{
+  "name": "starnotary",
+  "version": "0.0.1",
+  "description": "x",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "dotenv": "^16.0.3",
+    "openzeppelin-solidity": "2.3",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.8.1"
+  },
+  "main": "index.js",
+  "author": "A Lange and Udacity",
+  "license": "ISC"
+}
